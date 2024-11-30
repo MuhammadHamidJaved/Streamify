@@ -1,0 +1,52 @@
+/* Background color */
+body {
+    background-color: #DAD7CD;
+}
+
+
+
+/* Card styling */
+.movie-card {
+    background-color: #3A5A40;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    transition: border 0.3s ease;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Card hover effect */
+.movie-card:hover {
+    transform: scale(1.05);
+    border: 3px solid #344E41;
+}
+
+.card-img-top {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+/* Arrow styling after the text */
+.section-title .arrow {
+    color: #3A5A40;
+    background: none;
+    font-size: larger;
+}
+
+/* Adjust the arrow within the card, no background or circle */
+.card .arrow {
+    color: white;
+    background: none;
+    font-size: larger;
+}
